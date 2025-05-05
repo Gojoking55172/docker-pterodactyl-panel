@@ -34,7 +34,7 @@ services:
     depends_on:
       - php-fpm
     ports:
-      - 300:80
+      - 25568
     volumes:
       - public:/var/www/html/
 
